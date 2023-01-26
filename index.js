@@ -1,4 +1,4 @@
-import exprss from 'express';
+import express from 'express';
 import * as dotenv from 'dotenv';
 import cors from 'cors';
 
@@ -13,7 +13,7 @@ app.get('/', async (req, res) => {
 })
 
 const startServer = async () => {
-    app.listen(8080, () => console.og('Server started on port 8080 '))
+    app.listen(8080, () => console.log('Server started on port 8080 '))
 }
 
 startServer();
